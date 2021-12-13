@@ -1,5 +1,6 @@
 <template>
   <footer>
+    <!-- rendere dinamici props dall'app -->
     <section id="footer_up">
       <img src="@/assets/maxcoach-shape-01.png" alt="">
 
@@ -24,7 +25,12 @@
         </ul>
 
         <!-- icon -->
-        <div></div>
+        <div>
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin"></i>
+        </div>
       </div>
 
       <div id="links">
@@ -118,6 +124,12 @@ footer {
           color: #7e7e7e;
         }
       }
+    }
+
+    i {
+      font-size: 30px;
+      margin: 20px;
+      color: #b4b4b4;
     }
   }
 

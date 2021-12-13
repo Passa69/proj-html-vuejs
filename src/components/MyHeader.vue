@@ -1,5 +1,6 @@
 <template>
   <header>
+    <!-- rendere dinamici props dall'app -->
     <!-- navbar -->
       <MyNavbar/>
 

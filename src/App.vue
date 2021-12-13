@@ -50,6 +50,4 @@ export default {
     margin: 0 auto;
   }
 }
-
-// @import '~@fortawesome/fontawesome-free/css/all.min.css';
 </style>
