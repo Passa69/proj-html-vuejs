@@ -24,11 +24,10 @@ export default {
 #jumbo_comp {
     display: flex;
     flex-direction: row;
-    padding: 50px;
 
     #jumbo_text {
         margin-top: 100px;
-        margin-right: 20px;
+        margin-right: 50px;
         text-align: left;
 
         .jumbo_elem {
@@ -38,7 +37,7 @@ export default {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 40px;
     color: #3f3a64;
 }
 
