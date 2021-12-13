@@ -4,9 +4,11 @@
       <MyHeader/>
     </header>
 
-    <MyMain/>
+    <div>
+      <MyMain/>
 
-    <MyFooter/>
+      <MyFooter/>
+    </div>
   </div>
 </template>
 
@@ -41,6 +43,11 @@ export default {
 
   header {
     background-color: #e9e6e3;
+  }
+
+  div {
+    width: 80%;
+    margin: 0 auto;
   }
 }
 
