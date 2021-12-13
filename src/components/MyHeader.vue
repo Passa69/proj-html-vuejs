@@ -4,20 +4,20 @@
       <MyNavbar/>
 
     <!-- jumbotron -->
-      <!-- text -->
-
-      <!-- immagine -->
+      <MyJumbo/>
   </header>
 </template>
 
 <script>
 import MyNavbar from '@/components/MyNavbar.vue';
+import MyJumbo from '@/components/MyJumbo.vue';
 
 
 export default {
   name: 'MyHeader',
   components: {
     MyNavbar,
+    MyJumbo
   } 
 }
 </script>
@@ -25,8 +25,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 header {
-  // debug
-  background-color: red;
-  height: 500px;
+  width: 80%;
+  margin: 0 auto;
 }
 </style>

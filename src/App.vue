@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <MyHeader/>
+    <header>
+      <MyHeader/>
+    </header>
 
     <MyMain/>
 
@@ -36,8 +38,11 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  width: 80%;
-  margin: 0 auto;
+
+  header {
+    background-color: #e9e6e3;
+  }
 }
 
+// @import '~@fortawesome/fontawesome-free/css/all.min.css';
 </style>

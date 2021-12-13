@@ -13,6 +13,10 @@
           <li><a href="#">Shop</a> <i class="fas fa-chevron-down"></i></li>
       </ul>
 
+      <i class="far fa-user-circle"></i>
+
+      <i class="fas fa-shopping-cart"></i>
+
       <input type="text" placeholder="Search...">
   </nav>
 </template>
@@ -30,8 +34,6 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    // debug
-    background-color: blue;
     height: 100px;
 
     img {
@@ -46,7 +48,7 @@ nav {
     a {
         text-decoration: none;
         color: #605b7c;
-        font-size: 20px;
+        font-size: 18px;
     }
     }
 
