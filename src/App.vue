@@ -39,4 +39,5 @@ export default {
   width: 80%;
   margin: 0 auto;
 }
+
 </style>

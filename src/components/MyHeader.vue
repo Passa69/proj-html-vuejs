@@ -1,13 +1,24 @@
 <template>
   <header>
+    <!-- navbar -->
+      <MyNavbar/>
 
+    <!-- jumbotron -->
+      <!-- text -->
+
+      <!-- immagine -->
   </header>
 </template>
 
 <script>
+import MyNavbar from '@/components/MyNavbar.vue';
+
+
 export default {
   name: 'MyHeader',
-  
+  components: {
+    MyNavbar,
+  } 
 }
 </script>
 
