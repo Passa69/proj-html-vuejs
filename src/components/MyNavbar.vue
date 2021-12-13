@@ -42,14 +42,14 @@ nav {
     }
 
     li {
-    display: inline-block;
-    margin: 20px;
+        display: inline-block;
+        margin: 20px;
 
-    a {
-        text-decoration: none;
-        color: #605b7c;
-        font-size: 18px;
-    }
+        a {
+            text-decoration: none;
+            color: #605b7c;
+            font-size: 18px;
+        }
     }
 
     input {
