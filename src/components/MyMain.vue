@@ -1,6 +1,20 @@
 <template>
   <main>
+    <!-- build team -->
 
+    <!-- img+text -->
+
+    <!-- statitics -->
+
+    <!-- courses -->
+
+    <!-- img+text -->
+
+    <!-- img+text -->
+
+    <!-- events -->
+
+    <!-- love us -->
   </main>
 </template>
 

@@ -15,9 +15,9 @@
           <li><a href="#">Shop</a> <i class="fas fa-chevron-down"></i></li> -->
       </ul>
 
-      <i class="far fa-user-circle"></i>
+      <a href="#"><i class="far fa-user-circle"></i></a>
 
-      <i class="fas fa-shopping-cart"></i>
+      <a href="#"><i class="fas fa-shopping-cart"></i></a>
 
       <input type="text" placeholder="Search...">
   </nav>
@@ -48,12 +48,12 @@ nav {
     li {
         display: inline-block;
         margin: 10px;
+    }
 
-        a {
-            text-decoration: none;
-            color: #605b7c;
-            font-size: 18px;
-        }
+    a {
+        text-decoration: none;
+        color: #605b7c;
+        font-size: 18px;
     }
 
     input {
