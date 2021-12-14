@@ -47,7 +47,7 @@
     </section>
 
     <!-- courses -->
-    <section></section>
+    <MyCourses/>
 
     <!-- img+text -->
     <section class="container_info">
@@ -85,16 +85,21 @@
     </section>
 
     <!-- events -->
-    <section></section>
+    
 
     <!-- love us -->
-    <section></section>
+    
   </main>
 </template>
 
 <script>
+import MyCourses from '@/components/MyCourses.vue';
+
 export default {
   name: 'MyMain',
+  components: {
+    MyCourses
+  },
   data() {
     return {
       cards: [
