@@ -10,7 +10,7 @@
 
       <div class="card_container">
         <div v-for="(card, i) in cards" :key="i" class="card">
-          <img :src="card.poster + '.png'" alt="">
+          <img :src="require('../assets/'+card.poster)" alt="">
 
           <h4><strong>{{ card.title }}</strong></h4>
 
@@ -104,25 +104,25 @@ export default {
     return {
       cards: [
         {
-          poster: "@/assets/home-5-image-box-01",
+          poster: "home-5-image-box-01.png",
           title: "Idea Discuss",
           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit."
         },
 
         {
-          poster: "@/assets/home-5-image-box-02",
+          poster: "home-5-image-box-02.png",
           title: "Web Developer",
           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit."
         },
 
         {
-          poster: "@/assets/home-5-image-box-03",
+          poster: "home-5-image-box-03.png",
           title: "System Administration",
           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit."
         },
 
         {
-          poster: "@/assets/home-5-image-box-04",
+          poster: "home-5-image-box-04.png",
           title: "Graphic Design",
           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit."
         },
