@@ -5,7 +5,7 @@
 
             <p class="jumbo_elem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae corporis similique, sapiente ipsum assumenda, doloremque a possimus in porro eius ipsam cum iusto, rerum quam at nemo dolore minus. Impedit.</p>
 
-            <button class="jumbo_elem">Download free E-book</button>
+            <button class="jumbo_elem"><i class="fas fa-download"></i> Download free E-book</button>
         </div>
 
         <img src="@/assets/home-5-hero-image.png" alt="">

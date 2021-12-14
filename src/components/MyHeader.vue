@@ -2,7 +2,7 @@
   <header>
     <!-- rendere dinamici props dall'app -->
     <!-- navbar -->
-      <MyNavbar/>
+      <MyNavbar :links="navLinks"/>
 
     <!-- jumbotron -->
       <MyJumbo/>
@@ -19,7 +19,12 @@ export default {
   components: {
     MyNavbar,
     MyJumbo
-  } 
+  },
+  data() {
+    return { 
+      navLinks: ["Home", "Pages", "Courses", "Features", "Blog", "Shop"]
+    }
+  }
 }
 </script>
 

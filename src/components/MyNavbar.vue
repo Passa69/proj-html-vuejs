@@ -4,13 +4,15 @@
       <img src="@/assets/dark-logo.png" alt="">
 
       <!-- links -->
-      <ul>
-          <li><a href="#">Home</a> <i class="fas fa-chevron-down"></i></li>
+      <ul v-for="(link, i) in links" :key="i">
+          <li><a href="#">{{ link }}</a> <i class="fas fa-chevron-down"></i></li>
+
+          <!-- <li><a href="#">Home</a> <i class="fas fa-chevron-down"></i></li>
           <li><a href="#">Pages</a> <i class="fas fa-chevron-down"></i></li>
           <li><a href="#">Courses</a> <i class="fas fa-chevron-down"></i></li>
           <li><a href="#">Features</a> <i class="fas fa-chevron-down"></i></li>
           <li><a href="#">Blog</a> <i class="fas fa-chevron-down"></i></li>
-          <li><a href="#">Shop</a> <i class="fas fa-chevron-down"></i></li>
+          <li><a href="#">Shop</a> <i class="fas fa-chevron-down"></i></li> -->
       </ul>
 
       <i class="far fa-user-circle"></i>
@@ -24,7 +26,9 @@
 <script>
 export default {
   name: 'MyNavbar',
-  
+  props: {
+      links: Array
+  }
 }
 </script>
 
@@ -43,7 +47,7 @@ nav {
 
     li {
         display: inline-block;
-        margin: 20px;
+        margin: 10px;
 
         a {
             text-decoration: none;
