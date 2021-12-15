@@ -88,19 +88,21 @@
     <MyEvents/>
 
     <!-- love us -->
-    
+    <MyPeople/>
   </main>
 </template>
 
 <script>
 import MyCourses from '@/components/MyCourses.vue';
 import MyEvents from '@/components/MyEvents.vue';
+import MyPeople from '@/components/MyPeople.vue';
 
 export default {
   name: 'MyMain',
   components: {
     MyCourses,
-    MyEvents
+    MyEvents,
+    MyPeople
   },
   data() {
     return {
