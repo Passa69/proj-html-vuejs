@@ -1,26 +1,28 @@
 <template>
     <section>
         <div style="width: 100%;">
-            <h3 class="intest">Get in Contact Now</h3>
+          <h3 class="intest">Get in Contact Now</h3>
 
-            <h1 id="title">Upcoming <span>Events</span></h1>
+          <h1 id="title">Upcoming <span>Events</span></h1>
 
-            <div id="events_cont">
-                <div v-for="(event, i) in events" :key="i" id="event">
-                    <div class="event_title">
-                        <h4 class="intest"><i class="fas fa-map-marked-alt"></i> {{ event.place }}</h4>
+          <div id="events_cont">
+              <div v-for="(event, i) in events" :key="i" id="event">
+                  <div class="event_title">
+                      <h4 class="intest"><i class="fas fa-map-marked-alt"></i> {{ event.place }}</h4>
 
-                        <h2>{{ event.title }}</h2> 
-                    </div>
+                      <h2>{{ event.title }}</h2> 
+                  </div>
 
-                    <div class="date">
-                        <h1 class="number">{{ event.day }}</h1>
-                        <h3>{{ event.month }}</h3>
+                  <div class="date">
+                      <h1 class="number">{{ event.day }}</h1>
+                      <h3>{{ event.month }}</h3>
 
-                        <button>Get Ticket</button>
-                    </div>
-                </div>
-            </div>
+                      <button>Get Ticket</button>
+                  </div>
+              </div>
+          </div>
+          
+          <h4 id="event_footer">Exited about our event? <a href="#">View all events <i class="fas fa-long-arrow-alt-right"></i></a></h4>
         </div>
     </section>
 </template>
@@ -77,6 +79,15 @@ export default {
 .intest {
   color: #878a8b;
   margin-bottom: 10px;
+}
+
+#event_footer {
+  color: #9a97ad;
+
+  a {
+    text-decoration: none;
+    color: #2cb19b;
+  }
 }
 
 #title {
