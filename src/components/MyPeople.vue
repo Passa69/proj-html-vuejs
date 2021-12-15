@@ -57,7 +57,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 #people {
-    margin: 40px 0;
+    margin-top: 300px;
+    margin-bottom: 40px;
 
     .people_cont {
         display: flex;

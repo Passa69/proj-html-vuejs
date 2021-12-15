@@ -105,30 +105,30 @@ export default {
     justify-content: space-between;
 
     #event {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 50%;
-        margin: 30px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 50%;
+      margin: 30px 0;
 
-        .event_title {
-            text-align: left;
+      .event_title {
+        text-align: left;
+      }
+
+      .date {
+        .number {
+          color: #34ad96;
         }
 
-        .date {
-            .number {
-                color: #34ad96;
-            }
-
-            button {
-                padding: 15px;
-                color: white;
-                background-color: #20ad96;
-                border: 1px solid #20ad96;
-                border-radius: 10px;
-                margin: 10px 0;
-            }
+        button {
+          padding: 15px;
+          color: white;
+          background-color: #20ad96;
+          border: 1px solid #20ad96;
+          border-radius: 10px;
+          margin: 10px 0;
         }
+      }
 
     }
 }

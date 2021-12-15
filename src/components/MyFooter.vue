@@ -22,11 +22,6 @@
           <li><a href="#">{{ link.coordinates }}</a></li>
           <li><a href="#">{{ link.timetables }}</a></li>
           <li><a href="#">{{ link.mail }}</a></li>
-
-          <!-- <li><strong>Address</strong></li>
-          <li><a href="#">382 NE 191st St # 87394 Miami, FL 33179-3899</a></li>
-          <li><a href="#">+1 (305) 547-9909 (9am-5pm EST, Monday-Friday)</a></li>
-          <li><a href="#">support@maxcoach.com</a></li> -->
         </ul>
 
         <!-- icon -->
@@ -44,21 +39,12 @@
           <li><a href="#">{{ link.start }}</a></li>
           <li><a href="#">{{ link.blog }}</a></li>
           <li><a href="#">{{ link.info }}</a></li>
-
-          <!-- <li><strong>Explore</strong></li>
-          <li><a href="#">Start here</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">About us</a></li> -->
         </ul>
 
         <ul v-for="(link, i) in links3" :key="i" id="links_no">
           <li><a href="#">{{ link.story }}</a></li>
           <li><a href="#">{{ link.culture }}</a></li>
           <li><a href="#">{{ link.contact }}</a></li>
-
-          <!-- <li><a href="#">Success story</a></li>
-          <li><a href="#">Courses</a></li>
-          <li><a href="#">Contact us</a></li> -->
         </ul>
 
         <ul v-for="(link, i) in links4" :key="i">
@@ -67,12 +53,6 @@
           <li><a href="#">{{ link.guide }}</a></li>
           <li><a href="#">{{ link.police }}</a></li>
           <li><a href="#">{{ link.service }}</a></li>
-
-          <!-- <li><strong>Information</strong></li>
-          <li><a href="#">Membership</a></li>
-          <li><a href="#">Purchase guide</a></li>
-          <li><a href="#">Privacy police</a></li>
-          <li><a href="#">Terms of service</a></li> -->
         </ul>
       </div>
     </section>
@@ -103,6 +83,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 100px;
     color: #3f3a64;
 
     .up_title {
