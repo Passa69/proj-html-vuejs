@@ -10,7 +10,7 @@
 
       <div class="card_container">
         <div v-for="(card, i) in cards" :key="i" class="card">
-          <img :src="require('../assets/'+card.poster)" alt="">
+          <img :src="require('../assets/' + card.poster)" alt="">
 
           <h4><strong>{{ card.title }}</strong></h4>
 
