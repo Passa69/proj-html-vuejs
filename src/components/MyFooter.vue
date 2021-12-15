@@ -5,7 +5,7 @@
       <img src="@/assets/maxcoach-shape-01.png" alt="">
 
       <div>
-        <h3>Start today for getting <span>Online Certification</span></h3>
+        <h3 class="intest">Start today for getting <span>Online Certification</span></h3>
 
         <h1 class="up_title">You can be your own guiding star with our help!</h1>
 

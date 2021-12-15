@@ -85,7 +85,7 @@
     </section>
 
     <!-- events -->
-    
+    <MyEvents/>
 
     <!-- love us -->
     
@@ -94,11 +94,13 @@
 
 <script>
 import MyCourses from '@/components/MyCourses.vue';
+import MyEvents from '@/components/MyEvents.vue';
 
 export default {
   name: 'MyMain',
   components: {
-    MyCourses
+    MyCourses,
+    MyEvents
   },
   data() {
     return {

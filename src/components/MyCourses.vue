@@ -1,7 +1,7 @@
 <template>
   <section>
     <div>
-        <h3>Choose where you'd like to begin</h3>
+        <h3 class="intest">Choose where you'd like to begin</h3>
 
         <h1>Latest Feautered <span>Courses</span></h1>
 
@@ -25,7 +25,6 @@
             </div>
           </div>
         </div>
-        
     </div>
   </section>
 </template>
@@ -98,7 +97,7 @@ export default {
 </script>
 
 <style lang="scss">
-h3 {
+.intest {
   color: #878a8b;
   margin-bottom: 10px;
 }
